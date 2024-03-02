@@ -1,0 +1,421 @@
+.div {
+    background-color: #fff;
+    display: flex;
+    max-width: 595px;
+    padding-top: 36px;
+    flex-direction: column;
+  }
+  .div-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 39px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .div-3 {
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+    }
+  }
+  .div-4 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-5 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-top: 40px;
+    }
+  }
+  .div-6 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+    }
+  }
+  .div-7 {
+    font-family: Inter, sans-serif;
+    margin-top: 32px;
+  }
+  .div-8 {
+    font-family: Inter, sans-serif;
+    align-self: start;
+    margin: 31px 0 0 12px;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      margin-left: 10px;
+    }
+  }
+  .div-9 {
+    font-family: Inter, sans-serif;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+    padding: 13px 0 5px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      white-space: initial;
+    }
+  }
+  .div-10 {
+    font-family: Inter, sans-serif;
+    margin-top: 38px;
+  }
+  .div-11 {
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    margin-top: 7px;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+    padding: 3px 7px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      white-space: initial;
+    }
+  }
+  .div-12 {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .img {
+    aspect-ratio: 1.33;
+    object-fit: auto;
+    object-position: center;
+    width: 36px;
+    fill: #000;
+  }
+  .div-13 {
+    font-family: Inter, sans-serif;
+    align-self: start;
+    margin: 32px 0 0 12px;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      margin-left: 10px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-14 {
+    display: flex;
+    margin-top: 126px;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-15 {
+    font-family: Inter, sans-serif;
+    background-color: rgba(217, 217, 217, 1);
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 9px 0;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      white-space: initial;
+    }
+  }
+  .div-16 {
+    font-family: Inter, sans-serif;
+    align-self: start;
+    margin: 38px 0 0 10px;
+  }
+  .img-2 {
+    aspect-ratio: 6.67;
+    object-fit: auto;
+    object-position: center;
+    width: 225px;
+    fill: #d9d9d9;
+    align-self: center;
+    margin-top: 7px;
+  }
+  .div-17 {
+    font-family: Inter, sans-serif;
+    margin-top: 33px;
+  }
+  .div-18 {
+    disply: flex;
+    flex-direction: column;
+    position: relative;
+    fill: #d9d9d9;
+    overflow: hidden;
+    align-self: end;
+    aspect-ratio: 6.82;
+    margin-top: 10px;
+    width: 225px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: start;
+    color: rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+    padding: 9px 60px 9px 10px;
+    font: 400 20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-18 {
+      padding-right: 20px;
+      white-space: initial;
+    }
+  }
+  .img-3 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-19 {
+    position: relative;
+  }
+  .div-20 {
+    display: flex;
+    margin-top: 34px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    padding: 0 39px;
+  }
+  @media (max-width: 991px) {
+    .div-20 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-21 {
+    font-family: Inter, sans-serif;
+    align-self: start;
+    margin-left: 12px;
+  }
+  @media (max-width: 991px) {
+    .div-21 {
+      margin-left: 10px;
+    }
+  }
+  .div-22 {
+    font-family: Inter, sans-serif;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 11px;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 9px 0;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      max-width: 100%;
+    }
+  }
+  .div-23 {
+    display: flex;
+    margin-top: 16px;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+  .div-24 {
+    font-family: Inter, sans-serif;
+    background-color: #d9d9d9;
+    flex-grow: 1;
+    padding: 10px 0 4px;
+  }
+  @media (max-width: 991px) {
+    .div-24 {
+      white-space: initial;
+    }
+  }
+  .div-25 {
+    font-family: Inter, sans-serif;
+    background-color: #d9d9d9;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: start;
+    padding: 7px 60px 7px 10px;
+  }
+  @media (max-width: 991px) {
+    .div-25 {
+      padding-right: 20px;
+      white-space: initial;
+    }
+  }
+  .div-26 {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  @media (max-width: 991px) {
+    .div-26 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-27 {
+    font-family: Inter, sans-serif;
+    background-color: #d9d9d9;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 7px 0;
+  }
+  .div-28 {
+    font-family: Inter, sans-serif;
+    background-color: #d9d9d9;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: start;
+    white-space: nowrap;
+    padding: 9px 60px 9px 10px;
+  }
+  @media (max-width: 991px) {
+    .div-28 {
+      padding-right: 20px;
+      white-space: initial;
+    }
+  }
+  .div-29 {
+    font-family: Inter, sans-serif;
+    margin-top: 30px;
+  }
+  @media (max-width: 991px) {
+    .div-29 {
+      max-width: 100%;
+    }
+  }
+  .div-30 {
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 9px;
+    height: 33px;
+  }
+  @media (max-width: 991px) {
+    .div-30 {
+      max-width: 100%;
+    }
+  }
+  .div-31 {
+    font-family: Inter, sans-serif;
+    margin-top: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-31 {
+      max-width: 100%;
+    }
+  }
+  .div-32 {
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 7px;
+    height: 33px;
+  }
+  @media (max-width: 991px) {
+    .div-32 {
+      max-width: 100%;
+    }
+  }
+  .div-33 {
+    font-family: Inter, sans-serif;
+    margin-top: 12px;
+  }
+  @media (max-width: 991px) {
+    .div-33 {
+      max-width: 100%;
+    }
+  }
+  .div-34 {
+    background-color: rgba(217, 217, 217, 1);
+    height: 33px;
+  }
+  @media (max-width: 991px) {
+    .div-34 {
+      max-width: 100%;
+    }
+  }
+  .div-35 {
+    font-family: Inter, sans-serif;
+    background-color: #000;
+    align-self: center;
+    margin-top: 6px;
+    justify-content: center;
+    color: #fff;
+    white-space: nowrap;
+    padding: 3px 13px;
+  }
+  @media (max-width: 991px) {
+    .div-35 {
+      white-space: initial;
+    }
+  }

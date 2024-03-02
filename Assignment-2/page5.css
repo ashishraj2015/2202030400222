@@ -1,0 +1,115 @@
+.div {
+    background-color: #fff;
+    display: flex;
+    max-width: 360px;
+    flex-direction: column;
+    font-weight: 400;
+    white-space: nowrap;
+    padding: 50px 0;
+  }
+  .div-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    padding: 0 19px;
+  }
+  .div-3 {
+    color: #1ca1da;
+    font: 43px Inter, sans-serif;
+  }
+  .div-4 {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-top: 4px;
+    width: 39px;
+    height: 8px;
+  }
+  .div-5 {
+    color: #05187d;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #fff;
+    margin-top: 4px;
+    font: 32px Inter, sans-serif;
+  }
+  .div-6 {
+    margin-top: 26px;
+    font: 16px Inter, sans-serif;
+  }
+  .div-7 {
+    margin-top: 7px;
+    font: 13px Inter, sans-serif;
+  }
+  .div-8 {
+    align-self: stretch;
+    margin-top: 25px;
+    font: 29px Inter, sans-serif;
+  }
+  .div-9 {
+    disply: flex;
+    flex-direction: column;
+    position: relative;
+    fill: #d9d9d9;
+    overflow: hidden;
+    aspect-ratio: 6.38;
+    margin-top: 41px;
+    padding: 12px 18px 23px;
+    font: 16px Inter, sans-serif;
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-10 {
+    position: relative;
+  }
+  .div-11 {
+    background-color: rgba(217, 217, 217, 1);
+    align-self: stretch;
+    margin-top: 43px;
+    align-items: start;
+    padding: 12px 60px 26px 18px;
+    font: 16px Inter, sans-serif;
+  }
+  .div-12 {
+    color: #1ca1da;
+    align-self: end;
+    margin-top: 32px;
+    font: 15px Inter, sans-serif;
+  }
+  .div-13 {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: column;
+    color: #1ca1da;
+    padding: 0 19px;
+  }
+  .div-14 {
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #fff;
+    border-radius: 5px;
+    background-color: rgba(156, 149, 238, 1);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 16px 60px;
+    font: 20px Inter, sans-serif;
+  }
+  .div-15 {
+    margin-top: 31px;
+    font: 10px Inter, sans-serif;
+  }
+  .div-16 {
+    border-radius: 5px;
+    background-color: rgba(32, 177, 239, 0.21);
+    margin-top: 26px;
+    justify-content: center;
+    padding: 18px 37px;
+    font: 16px Inter, sans-serif;
+  }
